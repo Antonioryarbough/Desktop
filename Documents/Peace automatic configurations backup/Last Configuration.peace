@@ -12,6 +12,8 @@ Frequency10=4000
 Frequency11=8000
 Frequency12=16000
 Frequency13=20000
+[Gains]
+Gain9=1
 [Qualities]
 Quality1=1.41
 Quality2=1.41
@@ -225,7 +227,12 @@ Filter5=4
 [General]
 Description=3 way crossover by using shelf filters and pre amps
 Routing=R=1.000*L C=1.000*L SUB=1.000*R RL=1.000*R RR=1.000*R
-PreAmp=1.5
+Bass Gain=20
+Bass Frequency=5455
+Bass Target=1
+Treble Gain=20
+Treble Frequency=10600
+PreAmp=13
 PreAmp1=-10
 PreAmp2=-20
 PreAmp3=-10
