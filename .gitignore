@@ -1,0 +1,58 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Note: .lnk shortcuts are intentionally tracked in this repository
+# Note: desktop.ini is intentionally tracked in this repository
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+
+# Build outputs
+dist/
+build/
+out/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore empty placeholder files
+Documentsdef
