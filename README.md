@@ -35,6 +35,16 @@ The script will:
 - Return exit code 0 if the working tree is clean
 - Return exit code 1 and list uncommitted files if changes are detected
 
+### Installing Pre-commit Hook (Optional)
+
+To automatically check for uncommitted changes before each commit:
+
+```bash
+bash install-pre-commit-hook.sh
+```
+
+This will install a git hook that prevents commits when there are unstaged changes to tracked files.
+
 ### Workflow
 
 1. **Check status before committing:**
