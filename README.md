@@ -10,6 +10,7 @@ A beautiful, responsive gifting shop application with real-time features built w
 - 🎨 Beautiful gradient UI
 - 📱 Mobile-friendly interface
 - ⚡ Fast and lightweight
+- 🔒 Rate limiting for security (100 requests per 15 minutes)
 
 ## Prerequisites
 
@@ -166,6 +167,13 @@ npm install
 - Verify `start` script in `package.json` is correct
 - Check that environment variables are properly set
 
+## Security Features
+
+- **Rate Limiting**: Built-in protection against brute force and DDoS attacks
+  - Limit: 100 requests per 15 minutes per IP address
+  - Returns standard `RateLimit-*` headers for client awareness
+  - Configurable via middleware settings in `server.js`
+
 ## Future Enhancements
 
 - [ ] Add MongoDB database integration
@@ -176,6 +184,7 @@ npm install
 - [ ] Admin dashboard for product management
 - [ ] Email notifications
 - [ ] Product reviews and ratings
+- [ ] Enhanced security features (CORS, helmet, input validation)
 
 ## Contributing
 
