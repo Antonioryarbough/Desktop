@@ -1,0 +1,26 @@
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# System files (but not those already tracked)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment and local config
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+*.log
+node_modules/
+
+# Ignore new Peace configuration backups that haven't been committed yet
+# (existing ones remain tracked)
+# Uncomment the following line if you want to ignore new Peace configs:
+# Documents/Peace automatic configurations backup/*.Peace
