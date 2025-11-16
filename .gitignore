@@ -1,0 +1,33 @@
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# System files (but not those already tracked)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+$RECYCLE.BIN/
+
+# Environment and local config
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+*.log
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
